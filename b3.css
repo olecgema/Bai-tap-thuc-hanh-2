@@ -1,0 +1,121 @@
+h4{
+    background-color: rgb(225, 126, 126);
+    padding: 50px;
+}
+
+.thanhdoc li{
+    height: 50px;
+    width: 100px;
+
+    margin: 30px;
+}
+p2{
+    text-decoration: underline ;
+}
+.thanhdoc li:hover{
+    text-decoration:underline;
+}
+.thanhdoc li:active{
+    background-color: greenyellow;
+    color: blueviolet;
+}
+body{
+    background-color: #D5D5D5;
+    font-family: system-ui;
+
+}
+.box{
+
+    width:100%;
+    max-width: 100%;
+
+    margin:auto;
+
+    display: grid;
+    grid-template-columns: 20% 75%;
+    column-gap: 2%;
+}
+.thanhdoc{
+    position:relative;
+    background-color: rgb(198, 155, 155);
+    height: 100%;
+}
+
+.bbox {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+    grid-column-gap: 10px;
+    grid-row-gap: 25px;
+   
+    padding : 10px;
+    border-radius: 10px;
+  }
+  #box1 {
+    background-color: #80cbc4;
+    border: 1px solid #fff;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  #box2 {
+    background-color: #cb42c9;
+    border: 1px solid #fff;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  #box3 {
+    background-color: #52c237;
+    border: 1px solid #fff;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  #box4 {
+    background-color: #ba6b37;
+    border: 1px solid #fff;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  #box6 {
+    background-color: #b0c143;
+    border: 1px solid #fff;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  #box7 {
+    background-color: #80cbc4;
+    border: 1px solid #fff;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  #box5 {
+    background-color: #8d2222;
+    border: 1px solid #fff;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  #box8 {
+    background-color: #532faf;
+    border: 1px solid #fff;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+.bbox h1{
+    margin-left: 160px;
+
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+tbody img{
+    width: 50%;
+}
