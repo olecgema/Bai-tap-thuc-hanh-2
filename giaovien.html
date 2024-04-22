@@ -9,7 +9,7 @@
 <body>
     <div class="box">
         <div class="thanhdoc">
-            <h4>Trang chu</h4>
+            <h4 onclick="trangchu()">Trang chu</h4>
             <ul> 
                 <li onclick="call()"> Quản lý khoa</li>
                 <li onclick="call()"> Quản lý chuyên ngành</li>
@@ -143,6 +143,9 @@
         const editBtn = document.getElementById('edit');
         editBtn.onclick = function() {
             
+        }
+        function trangchu(){
+        window.location.href = "quantri.html";
         }
         
     </script>
